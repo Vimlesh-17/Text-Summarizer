@@ -19,7 +19,7 @@ class DataIngestion:
             )
             logger.info(f"{filename} download with info : \n {headers}")
         else:
-            logger.info(f"File already exists. {get_size(Path(self.config.local_data_fike))} Skipping download")
+            logger.info(f"File already exists. {get_size(Path(self.config.local_data_file))} Skipping download")
             
     def extract_zip_file(self):
         unzip_path = self.config.unzip_dir
