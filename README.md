@@ -87,7 +87,7 @@ Email: Vimleshchouhan8885@gmail.com
 
 
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI:
+    - Save the URI: 585008062649.dkr.ecr.us-east-2.amazonaws.com/texts
 
 
 ## 4. Create EC2 machine (Ubuntu)
